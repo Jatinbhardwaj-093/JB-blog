@@ -22,3 +22,36 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build artifacts
+dist/
+dist-ssr/
+*.local
+*.vue.js
+*.d.ts
+
+# TypeScript specific
+*.tsbuildinfo
+
+# IDE and editor configurations
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE-specific (specific to frontend folder)
+.vscode/*
+*.iml
+*.ipr
+*.iws
+__MACOSX/
