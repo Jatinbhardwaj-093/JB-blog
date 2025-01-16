@@ -11,27 +11,32 @@
         <div class="flex flex-col items-center mt-10">
             <p 
                 :class="{'bg-purple-500 text-white rounded-lg': selectedItem === 'Home'}" 
-                class="w-60 p-2 cursor-pointer text-center text-xl font-bold italic"
+                class="w-60 p-2 cursor-pointer text-center text-xl font-bold font-raleway"
                 @click="selectItem('Home')"
             >
                 Home
             </p>
             <p 
-                :class="{'bg-purple-500 text-white rounded-lg': selectedItem === 'Blog'}" 
-                class="w-60 p-2 cursor-pointer text-center text-xl font-bold italic"
-                @click="selectItem('Blog')"
+                :class="{'bg-purple-500 text-white rounded-lg': selectedItem === 'Sympy3DPolygon_Module'}" 
+                class="w-60 p-2 cursor-pointer text-center text-md font-bold font-raleway"
+                @click="selectItem('Sympy3DPolygon_Module')"
             >
-                Blog
+                Sympy 3DPolygon Module
             </p>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, defineEmits } from 'vue';
 const selectedItem = ref('Home');
+const emit = defineEmits(['itemSelected']);
 
 const selectItem = (item: string) => {
     selectedItem.value = item;
+    emit('itemSelected', item);
 };
 </script>
+
+<style scoped>
+</style>

@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+        'work': ['Work Sans', 'sans-serif'],
+        'merriweather': ['Merriweather', 'serif'],
+        'raleway': ['Raleway', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
