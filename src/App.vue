@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
-import BlogPost from './components/BlogPost.vue';
-import NavigatePanel from './components/NavigatePanel.vue';
-import Minimap from './components/Minimap.vue';
+import BlogPost from './BlogPost.vue';
+import NavigatePanel from './NavigatePanel.vue';
+import Minimap from './Minimap.vue';
 
 interface Post {
   id: number;
