@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center bg-gray-100 h-screen">
         <!-- profile section -->
         <div class="border-gray-500 border-2 rounded-full h-48 w-48 p-0.5 mt-10">
             <div class="rounded-full bg-inherit border-2 border-gray-500 w-full h-full">

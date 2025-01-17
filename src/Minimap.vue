@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[20vw] h-[100vh] sticky top-0">
+  <div class="w-[20vw] sticky top-0 bg-gray-100 h-screen">
   </div>
 </template>
 
