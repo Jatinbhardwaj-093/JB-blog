@@ -29,12 +29,16 @@
 
 <script setup lang="ts">
 import { ref, defineEmits } from 'vue';
+import { useRouter } from 'vue-router'; // Add this line
+
 const selectedItem = ref('Home');
 const emit = defineEmits(['itemSelected']);
+const router = useRouter(); // Add this line
 
 const selectItem = (item: string) => {
     selectedItem.value = item;
     emit('itemSelected', item);
+    router.push({ name: item }); // Add this line
 };
 </script>
 

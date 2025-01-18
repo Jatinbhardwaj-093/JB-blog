@@ -1,5 +1,7 @@
 <template>
-    <div class="container mx-auto p-4">
+    <div class="flex">
+    <!-- Content -->
+    <div class="w-[60vw] h-screen p-4 border-x-2 border-gray-300 bg-grid">
         <h1 class="text-4xl font-bold my-4 font-raleway text-purple-600">About Me</h1>
         <p class="mb-2 font-semibold font-merriweather">
             Hello! I’m Jatin Bhardwah, a Data Science student at IIT-Madras. My passion lies in mathematics,
@@ -55,6 +57,9 @@
             </a>
         </div>
     </div>
+    <!-- Minimap -->
+    <div class="h-screen w-[20vw] sticky top-0 bg-gray-200"></div>
+</div>
 </template>
 
 <style scoped>
@@ -184,5 +189,11 @@
     .social-link span {
         font-size: 12px;
     }
+}
+
+.bg-grid {
+    background-image: linear-gradient(to right, #e0e0e098 1px, transparent 1px), 
+                      linear-gradient(to bottom, #e0e0e098 1px, transparent 1px);
+    background-size: 6px 6px; 
 }
 </style>

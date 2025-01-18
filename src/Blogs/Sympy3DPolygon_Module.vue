@@ -1,5 +1,7 @@
 <template>
-  <div class="mt-4">
+  <div class="flex">
+  <!-- Content -->
+  <div class="w-[60vw] h-screen p-4 border-x-2 border-gray-300 bg-grid">
     <h2>Sympy3DPolygon Module</h2>
     <p>
       This module provides functions to create and manipulate 3D polygonal
@@ -31,4 +33,14 @@ poly = Polygon3D([(-1, -1, 0), (1, -1, 0), (1, 1, 0), (-1, 1, 0)])</code></pre>
       <li><code>volume</code>: Returns the volume of the polygon.</li>
     </ul>
   </div>
+    <!-- Minimap -->
+    <div class="h-screen w-[20vw] sticky top-0 bg-gray-200"></div>
+</div>
 </template>
+
+<style scoped>
+.bg-grid {
+    background-image: linear-gradient(to right, #ffffffc0 1px, transparent 1px), 
+                      linear-gradient(to bottom, #ffffffc0 1px, transparent 1px);
+    background-size: 6px 6px; 
+}</style>
