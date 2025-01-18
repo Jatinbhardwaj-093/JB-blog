@@ -192,8 +192,8 @@
 }
 
 .bg-grid {
-    background-image: linear-gradient(to right, #e0e0e098 1px, transparent 1px), 
-                      linear-gradient(to bottom, #e0e0e098 1px, transparent 1px);
+    background-image: linear-gradient(to right, #6d6b6b11 1px, transparent 1px), 
+                      linear-gradient(to bottom, #6d6b6b11 1px, transparent 1px);
     background-size: 6px 6px; 
 }
 </style>

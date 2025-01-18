@@ -40,7 +40,7 @@ poly = Polygon3D([(-1, -1, 0), (1, -1, 0), (1, 1, 0), (-1, 1, 0)])</code></pre>
 
 <style scoped>
 .bg-grid {
-    background-image: linear-gradient(to right, #ffffffc0 1px, transparent 1px), 
-                      linear-gradient(to bottom, #ffffffc0 1px, transparent 1px);
+    background-image: linear-gradient(to right, #6d6b6b11 1px, transparent 1px), 
+                      linear-gradient(to bottom, #6d6b6b11 1px, transparent 1px);
     background-size: 6px 6px; 
 }</style>
