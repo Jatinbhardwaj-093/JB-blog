@@ -23,13 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Build artifacts
-dist/
-dist-ssr/
-*.local
-*.vue.js
-*.d.ts
-
 # TypeScript specific
 *.tsbuildinfo
 
