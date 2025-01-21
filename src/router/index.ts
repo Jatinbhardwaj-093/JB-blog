@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../Blogs/Home.vue';
-import Sympy3DPolygon_Module from '../Blogs/Sympy3DPolygon_Module.vue';
+import SympyDiffGeom_Module from '../Blogs/SympyDiffGeom_Module.vue';
 
 const routes = [
     {
@@ -9,9 +9,9 @@ const routes = [
         component: Home,
     },
     {
-        path: '/sympy3dpolygon_module',
-        name: 'Sympy3DPolygon_Module',
-        component: Sympy3DPolygon_Module,
+        path: '/sympyDiffGeom_module',
+        name: 'SympyDiffGeom_Module',
+        component: SympyDiffGeom_Module,
     },
 ];
 

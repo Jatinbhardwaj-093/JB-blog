@@ -1,10 +1,10 @@
 <template>
     <div class="flex">
     <!-- Content -->
-    <div class="w-[60vw] h-screen p-4 border-x-2 border-gray-300 bg-grid">
-        <h1 class="text-4xl font-bold my-4 font-raleway text-purple-600">About Me</h1>
+    <div class="w-[60vw] h-screen p-4 border-x-2 border-green-300 bg-grid">
+        <h1 class="text-4xl font-bold my-4 font-raleway text-green-600">About Me</h1>
         <p class="mb-2 font-semibold font-merriweather">
-            Hello! I’m Jatin Bhardwah, a Data Science student at IIT-Madras. My passion lies in mathematics,
+            Hello! I’m Jatin Bhardwaj, a Data Science student at IIT-Madras. My passion lies in mathematics,
             computers and psychology.
         </p>
         <p class="mb-6  font-semibold font-merriweather"> 

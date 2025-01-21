@@ -1,10 +1,10 @@
 <template>
   <div class="flex font-merriweather">
   <!-- Content -->
-    <div class="w-[60vw] h-screen p-4 border-x-2 border-gray-300 bg-grid">
+    <div class="w-[60vw] h-screen p-4 border-x-2 border-green-300 bg-grid">
       <header>
-        <h1 class="text-4xl font-bold text-purple-600 font-raleway text-center mt-4 mb-0.5">Sympy 3D Polygon Module</h1>
-        <p class="text-sm text-gray-500 font-raleway text-right">January 2025</p>
+        <h1 class="text-4xl font-bold text-green-600 font-raleway text-center mt-4 mb-0.5">Sympy Differential Geometry Module</h1>
+        <p class="text-sm text-black font-raleway text-right">January 2025</p>
         <div class="w-[98%] h-0.5 bg-gray-300 mx-auto mb-4"></div>
       </header>
       <main>
