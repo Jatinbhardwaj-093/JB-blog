@@ -5,12 +5,14 @@
     <title>Redirecting...</title>
     <script>
         const basePath = '/JB-blog/';
-        const isIndex = window.location.pathname.endsWith('/index.html');
+        const path = window.location.pathname.replace(basePath, '');
+        const isIndex = path === '' || path === 'index.html';
 
-        // Prevent infinite redirect loop
         if (!isIndex) {
-            const newUrl = `${basePath}index.html${window.location.search}${window.location.hash}`;
-            window.location.replace(newUrl);
+            const redirectUrl = `${basePath}?redirect=${path}${window.location.search}${window.location.hash}`;
+            window.location.replace(redirectUrl);
+        } else {
+            window.location.replace(basePath);
         }
     </script>
 </head>
