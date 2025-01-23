@@ -9,7 +9,7 @@
         const isIndex = path === '' || path === 'index.html';
 
         if (!isIndex) {
-            const redirectUrl = `${basePath}?redirect=${path}${window.location.search}${window.location.hash}`;
+            const redirectUrl = `${basePath}${path}${window.location.search}${window.location.hash}`;
             window.location.replace(redirectUrl);
         } else {
             window.location.replace(basePath);
